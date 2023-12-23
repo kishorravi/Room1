@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 from tf_utils import *
 import os
-
+ 
 class RoomnetVanilla(object):
   def __init__(self):
     self.batch_size=20
